@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">xm_sms</string>
+    <string name="num">手机号</string>
+    <string name="content">输入短信内容</string>
+    <string name="button">点击发送</string>
+    <string name="success">发送完成</string>
+    <string name="shibai">没有权限发送失败</string>
+</resources>

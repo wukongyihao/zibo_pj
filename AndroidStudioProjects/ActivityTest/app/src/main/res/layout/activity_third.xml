@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_3"
+        android:text="button_3"
+        android:layout_gravity="left"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_4"
+        android:text="button_4"
+        android:layout_gravity="right"
+        />
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/Button_5"-->
+        <!--android:text="button_5"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/Button_6"-->
+        <!--android:text="button_6"-->
+        <!--android:layout_below="@id/Button_5"-->
+        <!--android:layout_toRightOf="@id/Button_5"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/Button_7"-->
+        <!--android:text="button_7"-->
+        <!--android:layout_below="@id/Button_5"-->
+        <!--android:layout_toLeftOf="@id/Button_5"-->
+        <!--/>-->
+
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FrameLayout</string>
+    <string name="filename">文件名</string>
+    <string name="filecontent">文件内容</string>
+    <string name="button">保存</string>
+    <string name="success">保存成功</string>
+    <string name="defate">保存失败</string>
+</resources>

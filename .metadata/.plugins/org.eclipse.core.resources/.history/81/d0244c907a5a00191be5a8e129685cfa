@@ -1,0 +1,49 @@
+package crazy_5_2;
+import java.util.Scanner;
+
+
+public class school {
+	
+	private final String detail;
+	private final String postCode;
+	
+	public school() {
+		this.detail = "";
+		this.postCode = "";
+		
+	}
+	public school(String detail, String postCode) {
+		this.detail = detail;
+		this.postCode = postCode;
+	}
+	
+	public String getDetail() {
+		return this.detail;
+	}
+	
+	public String getPostCode() {
+		return this.postCode;
+	}
+	
+	public boolean equals(Object obj) {
+		if(this == obj) {
+			return true;
+		}
+		if(obj != null && obj.getClass() == school.class) {
+			school sch = (school)obj;
+			if(this.getDetail().equals(sch.getDetail())	|| this.getPostCode().equals(sch.getPostCode()))) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,129 @@
+package prac;
+import java.util.Scanner;
+
+class student {
+	
+	
+	
+	
+	private String name ,gender,phone,address,email;
+	private int age;
+	
+	public void setAge(int age) {
+		if(0<age || age >100) {
+			System.out.println("年龄输入有误");
+			return;
+			}else {
+				this.age = age;
+			}
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+	
+	
+	public void setName(String name) {
+		if(name.length() > 8 || name.length() < 0) {
+			System.out.println("名字出入有误");
+			return;
+			}else {
+				this.name = name;}
+			}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	public String getGender() {
+		return this.gender;
+	}
+	
+	public void setPhone(String phone) {
+        if(phone.length()!=11){
+            System.out.println("电话输入有误");
+            return;
+        }else{
+            this.phone = phone;
+        }
+    }
+    public String getPhone() {
+        return this.phone;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public String getAddress() {
+        return this.address;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public String getEmail() {
+        return this.email;
+    }
+	
+	
+    public void Students(int age, String name, String gender, String phone, String address, String email) {
+        this.age = age;
+        this.name = name;
+        this.gender = gender;
+        this.phone = phone;
+        this.address = address;
+        this.email = email;
+    }
+	
+	
+	
+	
+	
+	
+	public void eat() {
+		System.err.println("stu 吃");
+	}
+	
+	public void drink() {
+		System.out.println("stu 喝");
+	}
+	
+	
+	public static void Add() {
+		
+	}
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+public class crazy_5_student{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		String[] stu_list = new String[10];
+		student stu1 = new student();
+		System.out.println("输入姓名");
+		stu1.setName(sc.next());
+		System.out.println(stu1.getName());
+	}
+	
+}
+
+
+
+
+
+
+
+
